@@ -74,6 +74,11 @@ export interface TechAssistPortalDatabase {
      * Get all project records
      */
     getProjects(): Promise<Project[]>;
+    /**
+     * Get Matching Projects
+     * @param volunteerName: The name of volunteer to find matches for 
+     */
+    getMatchingProjects(volunteerName: string): Promise<Project[]>;
 }
 
 export async function initializeDatabase(filename: string): Promise<TechAssistPortalDatabase> {
@@ -138,11 +143,19 @@ export async function initializeDatabase(filename: string): Promise<TechAssistPo
         return projects;
     }
 
+    async function getMatchingProjects(volunteerName: string) {
+        // TODO: Complete this method to return projects which match the volunteer's skills and availability
+        //       There are SQL-based solutions to this problem, but they can get quite complex and database-specific.
+        //       For this exercise, use Typescript to filter the projects after retrieving them.
+        return [];
+    }
+
     return {
         putVolunteer,
         getVolunteer,
         getVolunteers,
         putProject,
-        getProjects
+        getProjects,
+        getMatchingProjects
     }
 }

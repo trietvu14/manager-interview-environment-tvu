@@ -25,5 +25,10 @@ export function initializeRoutes(db: TechAssistPortalDatabase): Router {
         const projects = await db.getProjects();
         res.json(projects);
     });
+
+    routes.get('/volunteers/:name/matches', async (req, res) => {
+        // TODO: Complete this method
+        res.json([]);
+    });
     return routes;
 }
