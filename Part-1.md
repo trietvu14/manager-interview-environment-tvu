@@ -8,7 +8,7 @@ STRENGTHS:
 
 2. Strong Individual Skill Sets with Good Work Ethics - "The outgoing manager said, this team 'knows their stuff and shows up.'" This is indicated with Dinesh proactively monitoring logs, Case leaving detailed comments, and Elise/Farah motivated by the mission of Tech-Assist. Team members are busy and don't appear to demonstrate any obvious slacking off.
 
-3. Mission Alignment & Team Cohesion - Team members show up, are motivated by Tech-Assist's mission, and demonstrate commitment. This is not only characterized by the outgoing manager's assessment but also in the team's comfort level in implementation discussions.
+3. Mission Alignment & Team Cohesion - Team members show up, are motivated by Tech-Assist's mission, and demonstrate commitment. This is highlighted by the outgoing manager's assessment but also in the team's comfort level in implementation discussions.
 
 OPPORTUNITIES FOR IMPROVEMENT
 
